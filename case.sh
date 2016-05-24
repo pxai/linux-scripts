@@ -1,9 +1,6 @@
-
 #!/bin/bash
-NOMBRE=""
 echo -n "Dame un nombre: " 
 read NOMBRE
-
 case ${NOMBRE} in
     luis)
         echo "${NOMBRE} dice: apercibimiento" ;; 
@@ -14,7 +11,7 @@ case ${NOMBRE} in
     arantxa)
         echo "${NOMBRE} says: learn english or die" ;; 
     pello)
-        echo "${NOMBRE}> dice: el shell mola" ;; 
+        echo "${NOMBRE} dice: el shell mola, TÚ NO" ;; 
     *)
-        echo "A ${NOMBRE}? a este no lo conozco" 
+        echo "${NOMBRE}? a este no lo conozco" 
 esac
