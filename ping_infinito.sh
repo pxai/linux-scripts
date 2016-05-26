@@ -1,8 +1,12 @@
-#!/bin/tash
+#!/bin/bash
 
-güail bucle_infinito_to_wapo
-du
-	pingon -no -más-de=3 192.168.1.2
-dan
+ok=0
+fail=0
 
-echo eh.. la solución está aquí
+while true
+do
+ping -c1 172.30.0.1 && ok=`expr ${ok} + 1` ||  fail=`expr ${fail} + 1`
+echo pings correctos ${ok} - pings incorrectos ${fail}
+sleep 1
+done
+
