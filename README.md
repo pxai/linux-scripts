@@ -8,6 +8,14 @@ Name of scripts will give you a clue.
 - colors
 - etc.
 
+## WARNING
+Be careful with the beginning of the scripts.
+Always you should put
+```
+#!/bin/bash
+```
+For some examples to work 
+
 ## Entorno de ejecución
 Puedes probarlos en cualquier consola de linux 
 o en un shell como el de GIT en windows (git Bash)
